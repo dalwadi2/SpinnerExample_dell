@@ -1,0 +1,73 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#2683c2"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#2683c2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doantion History"
+                android:textColor="#eb543b"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="38dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#2683c2">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="old contact no"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/xml_old_Contact" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+
+                android:ems="10"
+                android:id="@+id/xml_new_contact"
+                android:hint="new contact no"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_button"
+                android:text="update"
+                android:background="#13b586"
+                android:textColor="#e8e8e7"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
